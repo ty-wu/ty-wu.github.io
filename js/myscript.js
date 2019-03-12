@@ -1,9 +1,11 @@
 //
 $('#chbio').click(function(){ 
-	window.location.href="chbio.html"
+	$('.eng').hide();
+	$('.chn').show();
 });
 $('#enbio').click(function(){ 
-	window.location.href="enbio.html"
+	$('.eng').show();
+	$('.chn').hide();
 });
 
 //------------------------------------- Navigation setup ------------------------------------------------//
