@@ -228,7 +228,7 @@ a {
 	padding-bottom: 90px;
 }
 
-.aboutInfo ul{
+.aboutInfo ul, .detlist ul{
   list-style: circle inside;
 }
 
