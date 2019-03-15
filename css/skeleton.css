@@ -241,7 +241,7 @@ p {
   }
 
   .bigTitle h1{
-    font-size:26px;
+    font-size:28px;
     margin-bottom:50px;
     display:inline-block;
     padding:10px 20px;
@@ -315,7 +315,7 @@ p {
   
   .innerIntro h1 span,  ul#category li a, .projTitle p, .postMeta span, .postMeta span a
   , .postSingle blockquote, .itemDesc span, .postTitleL p, .tweets .tweet_list, .word h3 span, .word p, .det h3 span, .date span
-  , .rcgDet h3 span {
+  , .rcgDet h3 span, .item {
     font-family: 'open_sanslight_italic', Arial, sans-serif;
 
   }
@@ -540,7 +540,7 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2rem; }
 
 
 /* Utilities

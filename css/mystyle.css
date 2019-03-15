@@ -314,7 +314,7 @@ a {
 }
 
 .aboutInfo{
-	margin-left: 4%%;
+	margin-left: 4%;
 	width:257px;
 }
 
@@ -611,6 +611,9 @@ a {
     margin-right: 10px;
 	color: #343434;
 }
+.c1 {
+    margin-left: 0 !important;
+}
 
 
 .langList li {
@@ -677,4 +680,85 @@ a {
 }
 
 /*End resume*/
+
+/*Portfolio section*/
+
+.item {
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+    border-radius:5px;
+    background-color: rgba(255, 221, 47, 0.75);
+    border-style:solid;
+    border-color:black;
+    padding: 10px 0;
+    margin:20px 0;
+}
+
+.item h4, .item h6 {
+    color: #343434;
+}
+
+/*End portfolio section*/
+
+
+/*Footer*/
+
+.footerTop{
+    padding: 10px 0;
+    background:#2c2c2c;
+}
+
+
+.footerBottom{
+    background:#343434;
+    color:#d5d5d5;
+    font-size:11px;
+}
+
+.ftLogo {
+    margin-bottom:30px;
+}
+
+.ftLogo img{
+    width:10.5%;
+}
+
+
+.socialsFooter li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+
+.socialsFooter a {
+    color: #ffffff;
+    display: inline-block;
+    font-size:25px;
+    opacity:.1;
+
+}
+
+.socialsFooter a:hover {
+    opacity:.8;
+
+}
+
+.top {
+    margin-top:10px;
+}
+
+.top a i {
+    background: none repeat scroll 0 0 #323232;
+    border: 1px solid #383838;
+    color: #f1f1f1;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 12px;
+}
+
+
+/*End footer*/
 
