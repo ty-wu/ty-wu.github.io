@@ -491,10 +491,13 @@ a {
 
 
 .skillTitle h1 {
+    font-size:18px;
     font-family: 'RobotoBoldCondensed', Arial, sans-serif;
-    color: #343434;
+    color: #ffffff;
+    background-color: rgba(52, 52, 52, 0.6);
     font-weight: bold;
     text-transform: uppercase;
+    padding: 5px 0;
 }
 
 .skills  .smallIntro p {
@@ -504,8 +507,9 @@ a {
 }
 
 
-.skillTitle h1{
-	font-size:18px;
+.skillTitle {
+    text-align: center;
+	
 }
 
 
@@ -545,6 +549,7 @@ a {
 
 
 .skillbarTitle {
+    font-family: 'open_sansbold', Arial, sans-serif;
     font-size: 12px;
     left: 0;
     position: absolute;
@@ -553,18 +558,18 @@ a {
 	text-transform:uppercase;
 }
 
-.percent90 {
+.great {
     width: 90%;
 }
 
 
-.percent40 {
-    width: 50%;
+.good {
+    width: 60%;
 }
 
 
-.percent50 {
-    width: 70%;
+.know {
+    width: 30%;
 }
 
 
@@ -601,6 +606,7 @@ a {
 
 
 .langList li {
+    width: 100%;
     float: left;
     margin-bottom: 7px;
 	margin-right: 50px;
