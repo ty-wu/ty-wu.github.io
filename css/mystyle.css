@@ -168,8 +168,15 @@ a {
 	color: #f1f1f1;
     display: block;
     font-size: 11px;
-    padding: 5px 0;
+    padding: 15px 10px;
     text-transform: uppercase;
+    width: 60%;
+}
+
+.offsetNav li a:hover{
+    color: #343434;
+    background-color: #ffffff;
+    display: block;
 }
 
 
@@ -221,9 +228,13 @@ a {
 	padding-bottom: 90px;
 }
 
+.aboutInfo ul{
+  list-style: circle inside;
+}
 
 .innerIntro{
 	float: left;
+    text-align: center;
     display: inline;
 	margin-top:120px;
 	margin-left: 20%;
@@ -282,9 +293,7 @@ a {
 	-o-border-radius: 100%;
 	display: inline-block;
 	border: 4px solid #319894;
-	margin-left: 25px;
-    margin-right: 33px;
-    margin-top: 30px;
+    margin: 15px 15%;
     height: 130px;
     width: 130px;
 }
@@ -549,8 +558,7 @@ a {
 
 
 .skillbarTitle {
-    font-family: 'open_sansbold', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     left: 0;
     position: absolute;
     top: -30px;
@@ -623,7 +631,7 @@ a {
     float: left;
     text-transform: uppercase;
     width: 144px;
-	font-size:13px;
+	font-size:14px;
 }
 
 

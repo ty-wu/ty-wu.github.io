@@ -276,6 +276,72 @@ p {
     
   }
 
+  a.btnLaunch{
+    
+      border: 3px solid #ffffff;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 15px;
+    margin-left:100px;
+    padding:6px 16px;
+  }
+  
+  
+  
+  a.btnLaunch:hover{
+    color:#343434;
+    background:#ffffff;
+  }
+  
+  
+  
+  .logo h1, .caption h1, .ctl a, .introTitle h1, a.latestBtn, .projTitle h1, .cltInner h1
+   , .cltInner a, .blContinue, .viewAll a, .postTitleL h1, .postTitle h1 a, .tagsSingle h4 , .comments h2, .respond h2, .widget h2,
+  .comments .reply-btn a , .contactForm #submit, .replyForm #submit, .contactInner h1, .more a, .innerIntro h1,  a.btnLaunch
+  , .bigTitle h1, .buyLink a, .aboutTitle h1, .aboutInfo .ctl a, .rcgIntro h1, .rcgDet h1, .skillTitle h1, .getCv h3 , .printCV h3  {
+    font-family: 'RobotoBoldCondensed', Arial, sans-serif;
+  }
+  
+  
+  
+  .logo h1 span, .caption p,  .itemDesc h3,  .rcgDet h3 {
+    font-family: 'open_sanssemibold', Arial, sans-serif;
+  }
+  
+  .author a, .fbInner p .brand, .stp h3, .expDet h3, .smallIntro p span, .feedInner h3 , .mainNav li a, .aboutInfo li span, .det h3, .skillbarTitle, .pList li, .langList h4, .offsetNav li a, .offsetNavQL li.title{
+    font-family: 'open_sansbold', Arial, sans-serif;
+  }
+  
+  
+  .innerIntro h1 span,  ul#category li a, .projTitle p, .postMeta span, .postMeta span a
+  , .postSingle blockquote, .itemDesc span, .postTitleL p, .tweets .tweet_list, .word h3 span, .word p, .det h3 span, .date span
+  , .rcgDet h3 span {
+    font-family: 'open_sanslight_italic', Arial, sans-serif;
+
+  }
+  
+  
+  .innerIntro p .brand,  .rcgIntro p {
+    font-family: 'open_sanssemibold_italic', Arial, sans-serif;
+
+  }
+  
+
+  
+  .pagination ul li, .tagsListSingle li a, .searchForm input[type="text"], .catList li a, .catArchives li a, .meta li a, .tagsList li a
+  , .pstlDet .postTitle h1, .pstlDet .postTitle h1 a, .smallIntro p, .aboutTitle h1 span , .aboutIntro h1 {
+    font-family: 'open_sanslight', Arial, sans-serif;
+  }
+  
+  
+  
+  ul#category li a, .itemDesc span, .aboutTitle h1 span, .det h3 span, .det .date span, .insta h3
+  , .postMeta, .blContinue, .postSingle, .sidebar, .mainNav li a , .ctl a, a.latestBtn, .caption p
+  , .prc h3,  .feedInner h3
+  , .teaserMsg h1, .projTitle p, a.btnLaunch, .stp h3, .postTitleL p,.stTitle p, .mainNavSingle li a {
+      -webkit-text-stroke: 0.30px;
+  }
+
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -409,8 +475,6 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-  list-style: circle inside; }
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -602,6 +666,7 @@ there.
   .flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;} 
   .teaser .slides li {background-attachment: scroll;background-position:top center !important;background-size: cover;}
   .mainHeader .container{width:86% !important;}
+  #dld{display: none;}
   .mainHeader .container .eight.columns{width:46% !important;}
   .caption p{padding: 0 210px;}
   .aboutIntro h1{font-size:23px;}
@@ -711,7 +776,8 @@ there.
   .teaser .slides  li{background-attachment: scroll;background-position:top center !important;background-size: cover;}
   .caption{top:55%;}
   .caption p{padding: 0 10px;}
-  .mainHeader .container .eight.columns {width: 100% !important;}
+  #dld{display: none;}
+  .mainHeader .container .eight.columns {width: 48% !important;}
   .mainNav li a{ color:#343434;}
   .caption h1{font-size:40px;}
   .caption p{margin-top:12px;}
