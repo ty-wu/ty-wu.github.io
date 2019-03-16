@@ -707,6 +707,7 @@ there.
   .flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;} 
   html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
   #dld{display: none;}
+  .mainNav li a {padding: 15px 10px !important;}
   .switchedHeader{position:static;}
   .headerSocials{display:none !important;}
   .teaser .slides  li{background-attachment: scroll;background-position:top center !important;background-size: cover;}
