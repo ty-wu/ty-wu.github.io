@@ -773,6 +773,7 @@ there.
   header{position :fixed !important;top:0 !important;left:0;margin-top:0 !important;background-color: rgba(255, 255, 255, 0.97) !important;}
   .switchedHeader{position:static;}
   .headerSocials{display:none !important;}
+  .mainNav li a {padding: 15px 10px !important;}
   .teaser .slides  li{background-attachment: scroll;background-position:top center !important;background-size: cover;}
   .caption{top:55%;}
   .caption p{padding: 0 10px;}
