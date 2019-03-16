@@ -7,6 +7,10 @@ $('#enbio').click(function(){
 	$('.eng').show();
 	$('.chn').hide();
 });
+$("#chen").toggle(
+	function(){$('.eng').hide(); $('.chn').show();},
+    function(){$('.eng').show(); $('.chn').hide();}
+);
 
 //------------------------------------- Navigation setup ------------------------------------------------//
 
