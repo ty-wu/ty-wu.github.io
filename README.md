@@ -1,1 +1,1 @@
-# ty-wu.github.io
+# tywuAMD.github.io
