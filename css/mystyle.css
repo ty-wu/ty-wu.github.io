@@ -361,6 +361,11 @@ a {
 	margin-bottom:0;	
 }
 
+#amdIco {
+    width: 75%;
+    height:auto;
+}
+
 .dtIco, .det{
 	float:left;
 }
@@ -369,8 +374,6 @@ a {
 .dtIco{
 	margin-top:3%;
 }
-
-
 
 .dtIco span.date {
     background:#03CC85;
